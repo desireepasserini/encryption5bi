@@ -4,7 +4,7 @@ class Main {
     Matrice m = new Matrice;
     Vigenere v = new Vigenere;
     Vigenere()
-    new Thread(v).start();
+    new Thread(v).start(); //h
     Thread t = new Thread(v);
     t.start();
   }
